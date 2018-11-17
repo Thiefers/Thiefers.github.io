@@ -1,0 +1,215 @@
+body{
+	font-family: "helvetica neue",arial,sans-serif;
+	font-size: 14px;
+}
+.background{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	margin: 0;
+}
+.aheader{
+	position: relative;
+	height: 48px;
+	margin: 0;
+}
+.bheader{
+	position: relative;
+	padding: 0 50px;
+	height: 48px;
+}
+.cheader{
+	position: relative;
+	text-align: center;
+	height: 48px;
+}
+.leftpart{
+	position: relative;
+	margin-top: 10px;
+	width: 700px;
+	height: 48px;
+	float: left;
+}
+.logo{
+	position: fixed;
+	float: left;
+	width: 80px;
+	height: 28px;
+	margin-right: 18px;
+	margin-top: -4px;
+	left: 40px;
+}
+.qheader:hover{
+	text-decoration: underline;
+}
+.wheader:hover{
+	text-decoration: underline;
+}
+.eheader:hover{
+	text-decoration: underline;
+}
+.rheader:hover{
+	text-decoration: underline;
+}
+.theader:hover{
+	text-decoration: underline;
+}
+.yheader:hover{
+	text-decoration: underline;
+}
+.uheader:hover{
+	text-decoration: underline;
+}
+.iheader:hover{
+	text-decoration: underline;
+}
+.qheader{
+	color: white;
+	position: fixed;
+	text-decoration:underline;
+	left: 140px;
+}/*首页*/
+.wheader{
+	color: white;
+	position: fixed;
+	text-decoration: none;
+	left: 190px;
+}/*发现*/
+.eheader{
+	color: white;
+	position: fixed;
+	text-decoration: none;
+	left: 240px;
+}/*最新*/
+.rheader{
+	color: white;
+	position: fixed;
+	text-decoration: none;
+	left: 340px;
+}/*活动*/
+.f{
+	color: white;
+	position: fixed;
+	text-decoration: none;
+	left: 320px;
+}/*竖线*/
+.theader{
+	color: white;
+	position: fixed;
+	text-decoration: none;
+	left: 390px;
+}/*美素*/
+.yheader{
+	color: white;
+	position: fixed;
+	text-decoration: none;
+	left: 440px;
+}/*美思*/
+.uheader{
+	color: white;
+	position: fixed;
+	text-decoration: none;
+	left: 490px;
+}/*美物*/
+.iheader{
+	color: white;
+	position: fixed;
+	text-decoration: none;
+	left: 540px;
+}/*花瓣LIVE*/
+/*.header:cover{
+	color: red;
+}*/
+.menu{
+	color: white;
+	position: fixed;
+	text-decoration: none;
+	left: 290px;
+}/*菜单栏*/
+.rightpart{
+	float: right;
+	margin-left: 20px;
+}
+.all{
+	display: inline-block;
+	widows: 138px;
+	height: 40px;
+	margin-top: 10px;
+}
+.load{
+	padding: 2px 10px;
+	margin-right: 10px;
+	border: 1px solid white;
+	text-decoration: none;
+	background-color: rgba(255,255,255,0.01);
+	position: fixed;
+	right: 101px;
+}
+.register{
+	background-color: red;
+	padding: 2px 10px;
+    border: 1px solid white;
+    text-decoration: none;
+    position: fixed;
+    right: 51px;
+}
+span{
+	color: white;
+}
+.new-ban{
+	position: relative;
+	width: 1350px;
+	height: 540px;
+}
+.title{
+	position: relative;
+	width: 540px;
+	height: 54px;
+	margin: 118px auto 40px;
+	line-height: 54px;
+	text-align: center;
+	font-size: 44px;
+	font-weight: 200;
+	font-family: "sy-sans" ;
+	color: rgba(255,255,255,1);
+	text-shadow: 0 10px 30px rgba(0,0,0,.3),
+			     0 2px  10px rgba(0,0,0,.2);
+}/*大文字*/
+.box{
+	height: 63px;
+	text-align: center;
+}
+.sbox{
+	border: 1px solid rgba(255,255,255,.5);
+	border-radius: 2px;
+	position: relative;
+	display: inline-block;
+	width: 536px;
+	height: 40px;
+}
+.inbox{
+	width: 506px;
+	height: 40px;
+	padding: 0 13px;
+}
+.go{
+    display: block;
+	position: absolute;
+	top: 5px;
+	right: 0;
+	width: 33px;
+	height: 33px;
+}
+.hot{
+	color: rgba(0,0,0,.8);
+	margin-top: 10px;
+	text-align: center;
+	height: 30px;
+}
+.ci{
+	color: black;
+}/*热词*/
+.ssy,.ds{
+	color: red;
+	text-decoration: none;
+}
