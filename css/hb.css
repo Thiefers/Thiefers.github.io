@@ -1,0 +1,212 @@
+body{
+	margin: 0;
+	width:1355px;
+    min-width:1024px;
+    max-width:100%;
+    height:100%;
+}
+.BG{
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	/*background-size: 1356px 900px;*/
+	background-size:cover;
+}
+.logo{
+	float: left;
+	margin-left: 40px;
+	margin-top: 10px;
+	margin-right: 18px;
+	height: 32px;
+	width: 80px;
+	cursor: pointer;
+}
+.daohang{
+	float: left;
+	text-decoration:none;
+	font-size: 15px;
+	margin-top: 16px;
+	margin-right: 26px;
+	color: white;
+	position: relative;
+}
+.daohang:hover{
+	border-bottom: 1px solid white;
+	padding-bottom: 3px;
+}
+.menu{
+	color: white;
+	float: left;
+	margin-right: 26px;
+	list-style: none;
+	font-size: 26px;
+	cursor: pointer;
+}
+.menu:hover .sbox{
+	display: block;
+}
+.sbox{
+	background-color: white;
+	display: none;
+    width: 258px;
+    height: 263px;
+    top: 51px;
+    left: 190px;
+    position: absolute;
+    margin: 5px 10px 0;
+    z-index: 1;
+}
+.sm{
+	color: black;
+	float: left;
+	font-size: 18px;
+	text-decoration: none;
+	margin-right: 16px;
+	margin-top: 16px;
+	margin-left: 10px;
+}
+.sm:hover{
+	color: red;
+}
+.usm{
+	position: relative;
+	color: black;
+	float: left;
+	font-size: 15px;
+	text-decoration: none;
+	padding-left: 10px;
+    margin-right: 50px;
+    line-height: 28px;
+}
+.usm:hover{
+	color: red;
+}
+.usma{
+	color: black;
+	float: left;
+	font-size: 15px;
+	text-decoration: none;
+	padding-left: 10px;
+    margin-right: 30px;
+    line-height: 28px;
+}
+.usma:hover{
+	color: red;
+}
+.tsm{
+	color: gray;
+	font-size: 14px;
+	float:right;
+	text-decoration: none;
+	margin-right: 15px;
+}
+.tsm:hover{
+	border-bottom: 1px solid gray;
+}
+.b{
+	color: gray;
+	width: 230px;
+	margin-left: 10px;
+}
+.f{
+	width: 0px;
+	height: 20px;
+	margin-top: 16px;
+	margin-right: 26px;
+	float: left;
+	color: white;
+	border: 1px solid white;
+	cursor: pointer;
+}
+.register{
+	border-radius: 3px;
+    padding:9px 18px;
+	float: right;
+	border: 1px solid #ec414d;
+	background-color: #ec414d;
+	color: white;
+	margin-right: 30px;
+	cursor: pointer;
+	margin-top: 10px;
+}
+.register:hover{
+	background-color: red;
+}
+.load{
+	border-radius: 3px;
+	float: right;
+	border: 1px solid rgba(255,255,255,.8);
+	background: none;
+	margin-right: 10px;
+	padding: 9px 18px;
+	color: white;
+	cursor: pointer;
+	margin-top: 10px;
+}
+.load:hover{
+	background-color: white;
+	color: gray;
+}
+.box{
+	position: absolute;
+	top: 26%;/*115px*/
+	left: 30%;/*407px*/
+	width: 520px;
+	height: 300px;
+}
+.p{
+	font-size: 43px;
+	font-family: "雅黑";
+	font-weight: 100;
+	position: absolute;
+	margin: 0;
+	color: white;
+	word-break: break-all;
+	white-space: nowrap;
+	overflow: auto;
+	text-shadow: 2px 2px 13px;
+}
+.k{
+	
+	width: 520px;
+	height: 38px;
+	position: absolute;
+	top: 93px;
+	left: -1px;
+}
+.found{
+	position: absolute;
+	border-radius: 3px;
+	padding: 0 9px;
+	width: 500px;
+	height: 38px;
+    left: -1px;
+}
+.search{
+	position: absolute;
+	top: 4px;
+	width: 40px;
+	height: 38px;
+	left: 480px;
+	background: url(../img/search.png);
+	display: block;
+	color: gray;
+}
+.hot{
+	position: absolute;
+	
+	top: 150px;
+	left: 100px;
+}
+.HS{
+	color: gray;
+	font-size: 13px;
+}
+.n{
+	text-decoration: none;
+	color: white;
+	font-size: 13px;
+}
+.n:hover{
+	border-bottom: 1px solid white;
+	padding-bottom: 2px;
+}
