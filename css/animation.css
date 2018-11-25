@@ -1,0 +1,210 @@
+body{
+	margin:0;
+	width:1355px;
+	min-width:1024px;
+	max-width:100%;
+	height: 100%;
+}
+.BG{
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size:100% 100%;
+}
+.heart{
+	position: absolute;
+	top: 6%;
+	left: 35%;
+	width: 400px;
+	height: 400px;
+	box-sizing: border-box;
+	/*border: 1px solid purple;*/
+}
+.P_one{
+	top: -3%;
+	position: relative;
+	text-align:center;
+	font-size:35px;
+	color: white;
+}
+.P_two{
+	top: -10%;
+	position:relative;
+	text-align:center;
+	font-size:45px;
+	color: red;
+}
+.box_heart{
+	position: relative;
+	width: 160px;
+	height: 160px;
+	left: 30%;
+	top: -16%;
+	animation: move 2s infinite alternate;/*名字 时长 循环 来回*/
+	/*border: 2px solid red;*/
+}
+.jump_heart{
+	position: absolute;
+	text-decoration: none;
+	left: 40%;
+	top:20%;
+	z-index: 2;
+}/*click*/
+.left{
+	position: absolute;
+	width: 66px;
+	height: 66px;
+	background-color: red;
+	border:1px solid red;
+	border-radius: 100%;
+	left: 22px;
+}
+.right{
+	position: absolute;
+	width: 66px;
+	height: 66px;
+	background-color: red;
+	border:1px solid red;
+	border-radius: 100%;
+	right: 22px;
+}
+.square{
+	position: absolute;
+	width: 66px;
+	height: 66px;
+	background-color: red;
+	border: 1px solid red;
+	left: 29%;
+	top: 15%;
+	transform: rotate(45deg);
+}
+@keyframes move{
+	10%{transform: rotate(0deg) scale(1.1); text-shadow:0 0 4px #ff0;}
+	20%{transform: rotate(0deg) scale(1.2); text-shadow:0 0 4px #ff0;}
+	30%{transform: rotate(0deg) scale(1.3); text-shadow:0 0 4px #ff0;}
+	40%{transform: rotate(0deg) scale(1.2); text-shadow:0 0 4px #ff0;}
+	50%{transform: rotate(0deg) scale(1.1); text-shadow:0 0 4px #ff0;}
+	60%{transform: rotate(0deg) scale(1.3); text-shadow:0 0 4px #ff0;}
+	70%{transform: rotate(0deg) scale(1.2); text-shadow:0 0 4px #ff0;}
+	80%{transform: rotate(0deg) scale(1.3); text-shadow:0 0 4px #ff0;}
+	90%{transform: rotate(0deg) scale(1.2); text-shadow:0 0 4px #ff0;}
+	100%{transform: rotate(0deg) scale(1.1); text-shadow:0 0 4px #ff0;}
+}/*心动画*/
+.space{
+	height: 666px;
+	max-width: 100%;
+	min-width: 1024px;
+	width: 1355px;
+	margin:0;
+	overflow: hidden;
+	float: left;
+}
+.space .star{
+	display: block;
+	width: 0px;
+	height: 0px;
+	border-radius: 100%;
+	top: 50px;
+	left: 900px;
+	background: #FFF;
+	position: relative;
+	animation: star_top 3s infinite ease-out;
+	transform-origin: 100% 0%;
+	box-shadow: 0px 0px 0px 0px rgba(255,255,255,.3);
+	z-index: 2;
+	opacity: 0;
+}
+.space .star:after{
+	content: '';
+	display:block;
+    top: 6px;
+    left: 900px;
+    border: 0px solid #FFF;
+    border-width: 0px 90px 4px 90px;
+    border-color: transparent transparent transparent #FFF;
+    transform: rotate(-45deg) translate3d(1px,3px,0);
+    transform-origin: 0% 100%;
+	animation: shooting_star 1s infinite ease-out;
+	box-shadow: 0 0 1px 0 rgba(255, 255, 255, .1);
+}
+/*.space .star_one{
+	top: 20px;
+	left: 300px;
+	background: #fff;
+	animation: star_top 0.5s infinite ease-out;
+}
+.space .star_one:after{
+	border-color: transparent transparent transparent #fff;
+	animation: shooting_star 0.5s infinite ease-out;
+}*/
+@keyframes star_top{
+	0%{
+		opacity: 0;
+	    transform: scale(0) rotate(0) translate3d(0,0,0);
+	}
+	25%{
+		opacity: 1;
+		transform: scale(1) rotate(0) translate3d(-300px,300px,0px);
+	}
+	50%{
+		opacity: 1;
+		transform: scale(1) rotate(0) translate3d(-500px,500px,0px);
+	}
+	75%{
+		opacity: 1;
+		transform: scale(1) rotate(0) translate3d(-700px,700px,0px);
+	}
+	100%{
+		opacity: 0;
+		transform: scale(0) rotate(0) translate3d(-900px,900px,0px);
+	}
+}/*失败之作*/
+.last{
+	width: 100px;
+	height: 300px;
+	float: left;
+	position: absolute;
+	z-index: 1;
+	/*border: 1px solid white;*/
+}
+.terrible{
+	color: white;
+	position: relative;
+	font-size: 20px;
+	top: 10%;
+    left: 105%;
+	width: 5px;
+	height: 5px;
+	/*border: 1px solid rgba(255,255,255,.6);*/
+	text-decoration: none;
+	box-sizing: border-box;
+	/*box-shadow: 0 0 5px rgba(255,255,255,.4);*/
+	text-shadow: 0 0 100px rgba(255,255,255,.2);
+}
+.terrible:hover {
+    color: lightgreen;
+}
+.zi{
+	font-family: "雅黑";
+	font-size: 10px;
+	color: white;
+}
+.fan{
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	position: absolute;
+	background: rgba(0,0,255,0.2);
+	animation: first 1s infinite alternate;
+}
+.fan span{
+	text-align: center;
+	position: relative;
+	color: white;
+}
+@keyframes first{
+	0%{background:rgba(0,0,255,0.2); left:0px; top: 0px;}
+	25%{background: rgba(1,2,55,0.2); left: 500px; top: 20px;}
+	50%{background: rgba(255,0,246,0.2); left: 400px; top: 300px;}
+	75%{background: rgba(0,255,0,0.2); left: 200px; top:400px; }
+	100%{background: rgba(12,254,112,0.2); left: 0px; top: 0px;}
+}
